@@ -1,0 +1,59 @@
+html, 
+body, 
+.view {
+  height: 100%;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100%;
+}
+
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+
+.page-footer {
+  background-color: #929FBA;
+}
+
+.view {
+  background-image: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.two{
+  background-image: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.three{
+  background-image: url('https://images.pexels.com/photos/1936299/pexels-photo-1936299.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
